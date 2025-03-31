@@ -10,6 +10,9 @@ workspace "New Project"
 
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
+-- Include Vendor Source
+includedirs { "Vendor/Source" }
+
 group "Core"
 	include "Core/Build-Core.lua"
 group ""
