@@ -11,8 +11,10 @@ project "App"
    {
       "Source",
 
-	  -- Include Core
-	  "../Core/Source"
+	-- Include Core
+	"../Core/Source",
+	
+      "../Vendor/Source",
    }
 
    links
